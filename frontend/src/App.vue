@@ -6,7 +6,6 @@ import Header from './components/Header.vue'
 <template>
   <div class="bg-black text-white  min-h-screen ">
     <Header/>
-    
 </div>
 </template>
 
