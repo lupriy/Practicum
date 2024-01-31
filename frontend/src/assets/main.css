@@ -1,0 +1,9 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#btn-reg{
+    border: 1px solid #FFF;
+}
