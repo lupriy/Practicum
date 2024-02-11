@@ -1,7 +1,7 @@
 <template>
   <header class="flex justify-between bg-black pt-2">
     <div class="ml-14">
-      <img src="/fba55dcf1cdd0920.svg" alt="logo">
+      <img src="/logo.svg" alt="logo">
     </div>
     <ul class="text-white flex items-center gap-12 mr-36">
       <b>

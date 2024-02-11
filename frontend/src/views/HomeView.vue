@@ -35,7 +35,7 @@
   <!-- Нижний колонтитул -->
   <footer class="border-t border-gray-700 mt-28 py-4">
     <div class="flex justify-center items-center ">
-      <img class="mr-16" src="/fba55dcf1cdd0920.svg" alt="logo">
+      <img class="mr-16" src="/logo.svg" alt="logo">
       <nav>
         <ul class="flex space-x-28">
           <li class="cursor-pointer">О НАС</li>
