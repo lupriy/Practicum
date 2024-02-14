@@ -3,7 +3,17 @@
 @tailwind components;
 @tailwind utilities;
 
-
+body{
+    background-color: black;
+}
 #btn-reg{
     border: 1px solid #FFF;
+}
+
+.headerS{
+    @apply cursor-pointer  border-b-2 border-transparent  hover:border-[#7DE8F0]
+}
+
+.footerS{
+    @apply cursor-pointer  border-b-2 border-transparent  hover:border-[#7DE8F0]
 }
