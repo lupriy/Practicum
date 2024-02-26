@@ -1,26 +1,37 @@
 <template>
   <div class="container mx-auto py-28 px-6 flex-grow relative">
-    <h1 class="text-5xl font-bold mb-4 text-white" style=" font-size: 65px; font-weight: 600; line-height: 62px; letter-spacing: -2px; text-align: left;">Юлия Сивчук</h1>
+    <h1 class="text-5xl font-bold mb-4 text-white"
+        style=" font-size: 65px; font-weight: 600; line-height: 62px; letter-spacing: -2px; text-align: left;">Юлия
+      Сивчук</h1>
     <div class="grid grid-cols-2 gap-8">
       <div class="col-span-2 md:col-span-1 relative z-10">
         <div class="border-b border-white mb-8 w-5/12"></div>
         <div class="text-gray-300">
-          <p class="text-2xl text-background: #BEBEC1;" style="font-family: Montserrat; font-size: 32px; font-weight: 400; line-height: 45px; letter-spacing: 0px; text-align: left;">Инстаграм в новой реальности</p>
-          <p class="text-2xl font-extralight mb-6 text-background: #BEBEC1;" style="font-family: Montserrat; font-size: 32px; font-weight: 400; line-height: 45px; letter-spacing: 0px; text-align: left;">Как быстро и бесплатно получить клиентов <br> в 2023 году.</p>
+          <p class="text-2xl text-background: #BEBEC1;"
+             style="font-family: Montserrat; font-size: 32px; font-weight: 400; line-height: 45px; letter-spacing: 0px; text-align: left;">
+            Инстаграм в новой реальности</p>
+          <p class="text-2xl font-extralight mb-6 text-background: #BEBEC1;"
+             style="font-family: Montserrat; font-size: 32px; font-weight: 400; line-height: 45px; letter-spacing: 0px; text-align: left;">
+            Как быстро и бесплатно получить клиентов <br> в 2023 году.</p>
         </div>
 
         <div class="mb-4">
           <ul class="list-none space-y-3">
-            <li class="mt-10 flex items-center font-extralight text-gray-400" style="font-family: Montserrat; font-size: 24px; font-weight: 400; line-height: 35px; letter-spacing: 0px; text-align: left;">
-              <img class="mr-2 w-6 h-auto" src="/approve.svg">Блогер-маркетолог и эксперт по<br> продажам через личный бренд
+            <li class="mt-10 flex items-center font-extralight text-gray-400"
+                style="font-family: Montserrat; font-size: 24px; font-weight: 400; line-height: 35px; letter-spacing: 0px; text-align: left;">
+              <img class="mr-2 w-6 h-auto" src="/approve.svg">Блогер-маркетолог и эксперт по<br> продажам через личный
+              бренд
             </li>
-            <li class="flex items-center font-extralight text-gray-400" style="font-family: Montserrat; font-size: 24px; font-weight: 400; line-height: 35px; letter-spacing: 0px; text-align: left;">
+            <li class="flex items-center font-extralight text-gray-400"
+                style="font-family: Montserrat; font-size: 24px; font-weight: 400; line-height: 35px; letter-spacing: 0px; text-align: left;">
               <img class="mr-2 w-6 h-auto" src="/approve.svg"> Опыт более 6 лет
             </li>
           </ul>
         </div>
 
-        <button class="mt-2 rounded-full bg-red-700 text-black font-semibold py-4 px-8 border-2 border-#81E7EBCC" style="font-family: Montserrat; font-size: 18px; font-weight: 600; line-height: 28px; letter-spacing: -0.2px; text-align: left;" id="signupButton">
+        <button class="mt-2 rounded-full bg-red-700 text-black font-semibold py-4 px-8 border-2 border-#81E7EBCC"
+                style="font-family: Montserrat; font-size: 18px; font-weight: 600; line-height: 28px; letter-spacing: -0.2px; text-align: left;"
+                id="signupButton">
           Записаться на завтрак
         </button>
       </div>
