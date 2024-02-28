@@ -1,5 +1,14 @@
+<script setup>
+import Header from './components/Header.vue'
+import Footer from './components/Footer.vue';
+
+</script>
+
+
 <template>
-  <div class="container mx-auto py-28 px-6 flex-grow relative">
+  <div class="container mx-auto flex-grow max-w-screen-xl min-h-screen flex-grow relative">
+    <Header/>
+
     <div class="grid grid-cols-2 gap-8">
       <div class="relative z-10 md:order-2">
         <p class="welcome-text">Добро пожаловать в <br> ПрактикУм</p>
@@ -61,11 +70,9 @@
         <img src="/vhod.png" alt="Entrance" class="image" style="width: 80%; height: auto; ">
       </div>
     </div>
+    <Footer/>
   </div>
 </template>
-
-<script setup>
-</script>
 
 <style scoped>
 .image {
@@ -154,7 +161,7 @@
   background-color: transparent;
   color: #fff;
   border-color: #4285F4;
-  transform: scale(1.05);
+
 }
 
 @media (min-width: 768px) {
