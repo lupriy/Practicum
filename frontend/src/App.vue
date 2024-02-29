@@ -2,6 +2,10 @@
 import {RouterLink, RouterView} from 'vue-router'
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue';
+import {ref} from 'vue';
+
+const date = ref();
+const value = ref(null);
 
 </script>
 
@@ -42,7 +46,7 @@ import Footer from './components/Footer.vue';
           <div>
             <img class="z-10 absolute" src="/sect2.png">
             <img class="z-20 relative mt-10 ml-20" src="/sect22.png">
-            <div class="mt-14" >Лучшие <br> спикеры</div>
+            <div class="mt-14">Лучшие <br> спикеры</div>
           </div>
           <div>
             <img class="z-10 absolute" src="/sect2.png">
@@ -60,6 +64,28 @@ import Footer from './components/Footer.vue';
           </div>
           <img src="/grop.png" alt="logg " class="">
         </div>
+      </section>
+      <section>
+
+
+        <div class="card flex justify-center">
+          <Calendar v-model="date" showButtonBar/>
+        </div>
+
+
+        <div>
+
+
+
+          <div class="card flex justify-center">
+            <Password v-model="value" toggleMask />
+          </div>
+
+
+
+        </div>
+
+
       </section>
 
     </main>
